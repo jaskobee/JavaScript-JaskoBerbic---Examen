@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Examen - Oefening 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Input voor de user -->
+    <label for="bedrag">Geef hier je bedrag in: </label>
+    <input type="text" name="bedrag" id="bedrag" value="0"> <br>
+    <label for="convert">Converted :</label>
+    <input type="text" name="convert" id="convert" value="0"> <br>
+    <!-- dropdown button -->
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Convert!</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a id="euro2dollar" href="#" onclick="euroTodollar()">Euro to Dollar</a>
+          <a id="dollar2euro" href="#" onclick="dollarToeuro()">Dollar to Euro</a>
+          <a id="euro2pond" href="#" onclick="euroTopond()">Euro to Pond</a>
+          <a id="pond2euro" href="#" onclick="pond2euro()">Pond to Euro</a>
+        </div>
+      </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
